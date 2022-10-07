@@ -1,0 +1,35 @@
+.categories__container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.categories {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.categories ul {
+    list-style: none;
+}
+
+.categories ul li {
+    display: inline;
+}
+
+.categori__btn {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    background-color: inherit;
+    transition: all .4s ease;
+}
+
+.categori__active, .categori__btn:hover {
+    color: #ff443a;
+}

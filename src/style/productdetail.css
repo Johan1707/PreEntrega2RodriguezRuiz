@@ -1,0 +1,146 @@
+.dp__container {
+    box-sizing: border-box;
+    display: flex;
+    width: 100vw;
+    margin-top: 100px;
+    padding: 0 100px;
+}
+
+.container__img {
+    width: 60%;
+    padding: 0 15px;
+}
+
+.img__product, 
+.detail__product {
+    width: 100%;
+    height: 430px;
+}
+
+.img__product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img__product img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.container__detail {
+    width: 40%;
+    padding: 0 15px;
+}
+
+.detail__product h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #444;
+}
+
+.product__description {
+    margin-top: 20px;
+}
+
+.product__description p {
+    color: #666;
+    line-height: 26px;    
+}
+
+.product__price {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.product__price li {
+    color: #ff443a;
+    font-size: 30px;
+}
+
+.product__quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.quantity__text {
+    padding-right: 20px;
+}
+
+.quantity__text span {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #666;
+}
+
+.quantity__card {
+    position: relative;
+    display: flex;
+    width: 92px;
+}
+.quantity__card input,
+.quantity__card button {
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+}
+
+.quantity__card button {
+    cursor: pointer;
+}
+
+.quantity__card input {
+    width: 100%;
+    text-align: center;
+}
+
+.product__btn {
+    margin-top: 100px;
+}
+
+.product__btn {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+
+.product__btn li {
+    width: 50%;
+}
+
+.product__btn li button {
+    height: 44px;
+    width: 90%;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 44px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add_cart {
+    border: 1px solid #d5d5d5;
+    color: #4b4b4b;
+    background: none;
+    transition: .3s all ease;
+}
+
+.add_cart:hover {
+    border: 1px solid #ff443a;
+    color: white;
+    background-color: #ff443a;
+}
+
+.buy_now {
+    color: white;
+    border: 1px solid #ff443a;
+    background-color: #ff443a;
+}

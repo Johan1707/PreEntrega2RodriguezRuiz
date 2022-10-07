@@ -1,0 +1,8 @@
+.products__container {
+    display: grid;
+    grid-template-rows: 358px;
+    grid-template-columns: repeat(4, 317.5px);
+    grid-auto-rows: 358px;
+    justify-items: center;
+    padding: 0 15px;
+}

@@ -1,0 +1,135 @@
+.mainmenu_area {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(246, 246, 248, .9);
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+    z-index: 99;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.mainlogo_area {
+    width: 16%;
+    padding: 0 15px;
+}
+
+.contentlogo {
+    margin: 0;
+    padding: 0;
+}
+
+.contentlogo a {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    text-decoration: none;
+}
+
+.mainnav_area {
+    width: 66%;
+    padding: 0 15px;
+}
+
+.mainmenu-nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.mainmenu-nav ul li {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    list-style: none;
+}
+
+.mainmenu-nav ul li a {
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #7d7d7d;
+}
+
+.mainmenu-nav ul li a:hover {
+    color: #ff443a;
+}
+
+.categoris__menu {
+    top: 65%;
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 0 rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 10%);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 189px;
+    z-index: 99;
+}
+
+.categoris__menu li {
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+}
+
+.categoris__menu li a {
+    background: #fff none repeat scroll 0 0;
+    color: #333;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 18px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease 0s;
+}
+
+.maincar_area {
+    width: 16%;
+    padding: 0 15px;
+}
+
+.maincar_area ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+}
+
+.maincar_area ul li {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 15px;
+    list-style: none;
+    height: inherit;
+}
+
+.maincar_area ul li button {
+    border: none;
+    background-color: inherit;
+}
+
+.maincar_area ul li button:hover {
+    cursor: pointer;
+}
+
+.maincar_area ul li button i {
+    font-size: 19px;
+    color: #7d7d7d;
+}
+
+.maincar_area ul li button i:hover {
+    color: #ff443a;
+}

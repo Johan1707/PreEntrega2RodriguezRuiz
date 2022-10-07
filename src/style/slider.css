@@ -1,0 +1,108 @@
+.mainslider_area, .slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.slider {    
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.slider img {
+    position: absolute;
+    height: 400px;
+    width: auto;
+    right: 0;
+}
+
+.slider__container {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    padding: 0 20px;
+    margin-left: 10%;
+}
+
+.slider__container h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.slider__container h3 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.slider__container span {
+    display: inline-block;
+    font-size: 40px;
+    margin: 20px 0;
+    color: #ff443a;
+}
+
+.data__btn button {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-transform: uppercase;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.data__btn button::before {
+    content: '____';
+    line-height: 0;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    height: inherit;
+    width: 20px;
+}
+
+.data__btn button:hover {
+    color: #ff443a;
+}
+
+.area__next, .area__previus {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    transition: all .5s ease;
+}
+
+.area__next i, .area__previus i {
+    display: inline-block;
+    color: #999;
+    font-size: 50px;
+}
+
+.area__next {
+    right: -50px;
+}
+
+.area__previus {
+    left: -50px;
+}
+
+.previus__active {
+    transform: translateX(100px);
+}
+
+.next__active {
+    transform: translateX(-100px);
+}

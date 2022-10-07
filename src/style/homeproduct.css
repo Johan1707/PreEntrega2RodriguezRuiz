@@ -1,0 +1,14 @@
+.hp {
+    display: flex;
+    align-items: center;
+    padding-bottom: 55px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.hp__container {
+    width: 84%;
+    background-color: black;
+}
