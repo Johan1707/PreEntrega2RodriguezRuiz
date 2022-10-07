@@ -35,9 +35,9 @@ export const Navbar = () => {
                                     overCategori &&
                                     <ul className='categoris__menu'>
                                         <div>
-                                            {categories.map(categori => 
-                                                <li key={categori.id}>
-                                                    <Link to={`categori/${categori.id}`}>{categori.name}</Link>
+                                            {categories.map(category => 
+                                                <li key={category.id}>
+                                                    <Link to={`category/${category.id}`}>{category.name}</Link>
                                                 </li>
                                             )}
                                         </div>

@@ -1,0 +1,15 @@
+.container__category,
+.category__title {
+    width: 100%;
+}
+
+.category__title {
+    text-align: center;
+}
+
+.category__title h2 {
+    color: #303030;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+}

@@ -5,6 +5,7 @@ import {
     HomePage, 
     ProductsPages, 
     DetailPage,
+    CategoryPage,
     AboutPages, 
     ContactsPages, 
     NotFoundPages } from '../pages/index'
@@ -18,6 +19,7 @@ const MainRouter = () => {
                 <Route index element={ <HomePage /> }/>
                 <Route path='/products' element={ <ProductsPages /> }/>
                 <Route path='/detail/:idProduct' element={ <DetailPage /> }/>
+                <Route path='/category/:categoryId' element={ <CategoryPage /> }/>
                 <Route path='/about' element={ <AboutPages /> }/>
                 <Route path='/contact' element={ <ContactsPages /> }/>
                 <Route path='*' element={ <NotFoundPages /> }/>

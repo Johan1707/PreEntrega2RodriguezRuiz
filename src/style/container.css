@@ -1,0 +1,6 @@
+.maincontainer {
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 0 15px;
+    width: 100%;
+}
